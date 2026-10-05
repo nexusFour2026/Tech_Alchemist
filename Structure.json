@@ -1,0 +1,19 @@
+{
+  "devices": {
+    "ESP32_PLANT_01": {
+      "deviceName": "Balcony Fern Node",
+      "ownerUid": "USER_AUTH_UID", 
+      "telemetry": {
+        "soilMoisture": 35,
+        "airTemperature": 28.5,
+        "airHumidity": 45.0,
+        "lastUpdated": 1700000000
+      },
+      "thresholds": {
+        "minSoilMoisture": 40,
+        "maxAirTemperature": 35.0,
+        "minAirHumidity": 50.0
+      }
+    }
+  }
+}
